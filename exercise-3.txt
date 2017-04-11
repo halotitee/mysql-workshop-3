@@ -1,0 +1,14 @@
+Before Starting
+
+Exercise 1
+    SELECT accountId
+        FROM AddressBook
+        GROUP BY accountId
+        ORDER BY COUNT(*) DESC
+        LIMIT 1;
+        
+    SELECT addressBookId
+        FROM Entry
+        GROUP BY addressBookId
+        ORDER BY COUNT(*) DESC
+        LIMIT 1;
