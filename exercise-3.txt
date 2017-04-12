@@ -12,3 +12,15 @@ Exercise 1
         GROUP BY addressBookId
         ORDER BY COUNT(*) DESC
         LIMIT 1;
+        
+
+Exercise 2
+    SELECT COUNT(subtype = 'phone') FROM Entry WHERE contentLineOne % 1000000000 BETWEEN 300 AND 399;
+    SELECT COUNT(type = 'home') FROM Entry WHERE contentLineOne NOT LIKE '%5%';
+    SELECT COUNT(type = 'work') FROM Entry WHERE contentLineOne % 10000000000 = 1; 
+    
+
+
+    
+    
+    
