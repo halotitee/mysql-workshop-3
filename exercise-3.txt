@@ -79,3 +79,12 @@ Exercise 1
             type ENUM('home','work','other'),
             content VARCHAR(255)
             );
+
+Exercise 2
+    SOURCE ~/mysql-workshop-3/data/import-account.sql
+    SOURCE ~/mysql-workshop-3/data/import-addressbook.sql
+    SOURCE ~/mysql-workshop-3/data/import-entry.sql
+    
+
+
+    
